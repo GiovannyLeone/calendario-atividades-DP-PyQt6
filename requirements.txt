@@ -1,0 +1,4 @@
+Flask>=3.0
+requests>=2.31
+PyQt6>=6.5
+pytest>=8.0

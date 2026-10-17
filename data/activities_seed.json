@@ -1,0 +1,64 @@
+{
+  "activities": [
+    {
+      "id": "plan0001", "kind": "meeting", "title": "Planejamento da sprint",
+      "description": "Definição do escopo da semana", "start": "2026-10-05T09:00", "end": "2026-10-05T10:30",
+      "category": "Trabalho/Reuniões", "priority": "high", "recurrence": "weekly", "recurrence_until": "2026-12-21",
+      "reminder_minutes": 15, "status": "pending", "location": "Sala 3", "attendees": ["Ana", "Bruno", "Carla"]
+    },
+    {
+      "id": "daily001", "kind": "meeting", "title": "Daily do time",
+      "description": "", "start": "2026-10-05T11:00", "end": "2026-10-05T11:15",
+      "category": "Trabalho/Reuniões", "priority": "medium", "recurrence": "daily", "recurrence_until": "2026-10-30",
+      "reminder_minutes": 5, "status": "pending", "location": "Google Meet", "attendees": ["Ana", "Bruno", "Carla", "Diego"]
+    },
+    {
+      "id": "one0001", "kind": "meeting", "title": "1:1 com o time",
+      "description": "Acompanhamento individual", "start": "2026-10-13T15:00", "end": "2026-10-13T15:30",
+      "category": "Trabalho/Reuniões", "priority": "medium", "recurrence": "weekly", "recurrence_until": "2026-12-29",
+      "reminder_minutes": null, "status": "pending", "location": "Sala 1", "attendees": ["Ana"]
+    },
+    {
+      "id": "pr000001", "kind": "task", "title": "Revisar pull requests",
+      "description": "Revisar os PRs abertos do backend", "start": "2026-10-08T14:00", "end": "2026-10-08T15:00",
+      "category": "Trabalho/Desenvolvimento", "priority": "high", "recurrence": "none", "recurrence_until": null,
+      "reminder_minutes": null, "status": "in_progress"
+    },
+    {
+      "id": "study001", "kind": "task", "title": "Estudar padrões de projeto",
+      "description": "Capítulos de padrões comportamentais", "start": "2026-10-09T19:00", "end": "2026-10-09T21:00",
+      "category": "Estudos", "priority": "medium", "recurrence": "none", "recurrence_until": null,
+      "reminder_minutes": 30, "status": "pending"
+    },
+    {
+      "id": "gym00001", "kind": "task", "title": "Treino na academia",
+      "description": "", "start": "2026-10-07T18:00", "end": "2026-10-07T19:00",
+      "category": "Saúde", "priority": "low", "recurrence": "none", "recurrence_until": null,
+      "reminder_minutes": null, "status": "done"
+    },
+    {
+      "id": "bill0001", "kind": "reminder", "title": "Pagar fatura do cartão",
+      "description": "", "start": "2026-10-10T08:00", "end": "2026-10-10T08:00",
+      "category": "Pessoal/Finanças", "priority": "high", "recurrence": "monthly", "recurrence_until": "2027-06-10",
+      "reminder_minutes": 60, "status": "pending"
+    },
+    {
+      "id": "work0001", "kind": "event", "title": "Workshop de arquitetura",
+      "description": "Microsserviços e eventos", "start": "2026-10-14T09:00", "end": "2026-10-14T12:00",
+      "category": "Trabalho/Eventos", "priority": "medium", "recurrence": "none", "recurrence_until": null,
+      "reminder_minutes": null, "status": "pending", "location": "Auditório"
+    },
+    {
+      "id": "party001", "kind": "event", "title": "Aniversário da Maria",
+      "description": "", "start": "2026-10-17T20:00", "end": "2026-10-17T23:00",
+      "category": "Pessoal/Social", "priority": "low", "recurrence": "none", "recurrence_until": null,
+      "reminder_minutes": null, "status": "pending", "location": "Casa da Maria"
+    },
+    {
+      "id": "deliver1", "kind": "task", "title": "Entregar projeto de Design Patterns",
+      "description": "Repositório público no GitHub", "start": "2026-10-20T22:00", "end": "2026-10-20T23:00",
+      "category": "Estudos", "priority": "high", "recurrence": "none", "recurrence_until": null,
+      "reminder_minutes": 1440, "status": "pending"
+    }
+  ]
+}
